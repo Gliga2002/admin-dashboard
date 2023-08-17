@@ -107,6 +107,10 @@ body {
   margin-right: 1rem;
 }
 
+.margin-top-em {
+  margin-top: 0.9rem;
+}
+
 .margin-bottom-eem {
   margin-bottom: 0.2rem;
 }
