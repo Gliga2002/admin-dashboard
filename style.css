@@ -197,7 +197,7 @@ ion-icon {
 
 .section-main{
   background-color: var(--background-color--greish);
-  padding:4.5rem 0 2.5rem 1rem; 
+  padding:4.5rem 0 3rem 1rem; 
 }
 
 /* ********************************* */
@@ -262,24 +262,24 @@ ul li {
 .main-container {
   grid-template-columns: 4fr 1fr;
   gap: 15px;
-  height: 100%;
+  padding-bottom: 1rem;
 }
 
 .six-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 15px;
+  height: 100%;
 }
 
 
 
 .box {
   position: relative;
-  height: 200px;
   background-color: var(--background-color--white);
   border-left:0.7rem solid var(--border-color--orange, orange);
   border-radius: 0.5rem;
-  padding:4rem 2rem 2rem 2rem;
+  padding:3rem 2rem 2rem 2rem;
 }
 
 .icons {
@@ -298,6 +298,10 @@ ul li {
   width:90%;
   height: 100%;
   padding:1rem
+}
+
+.box-11 {
+  padding-bottom: 0;
 }
 
 .announcment--1 p,
