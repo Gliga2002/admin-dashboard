@@ -3,15 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="style.css">
   <title>Admin Dashboard | Odin Project</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Admin Dashboard</h1>
+  <div class="container">
+    <sidebar class="section-sidebar"> 
+    </sidebar>
+    <header class="section-header">
+      <div class="section-header--1 flex flex-row--center-vert margin-bottom--sm">
+        <ion-icon name="search-outline"></ion-icon>
+        <div class="search-bar margin-left--sm"></div>
+        <div class="flex flex-row--center-vert gap--sm">
+         <ion-icon name="notifications-outline"></ion-icon>
+          <img class="img header--1-img" src="assets/customers/customer-2.jpg" alt="men" />
+          <p class="font-size--md"><strong>Darko Gligorijevic</strong></p>
+        </div>
+      </div>
+     
+      <div class="section-header--2 flex flex-row--space-between">
+        <div class="header--2-box grid">
+          <img class="img header--2-box-img" src="assets/customers/customer-2.jpg" alt="men" />
+          <p class="font-size--sm"><strong>Hi there,</strong></p>
+          <p class="font-size--lg"><strong>Darko Gligorijevic (@morgan)</strong></p>
+        </div>
+
+        <nav>
+          <ul class="flex gap--lg">
+            <li class="font-size--md">New</li>
+            <li class="font-size--md">Upload</li>
+            <li class="font-size--md">Share</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="section-main"></main>
+  </div>
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
